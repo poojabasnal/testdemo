@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T03:36:36Z" name="Default suite" finished-at="2021-02-25T03:36:55Z" duration-ms="19072">
+    <groups>
+    </groups>
+    <test started-at="2021-02-25T03:36:36Z" name="Default test" finished-at="2021-02-25T03:36:55Z" duration-ms="19072">
+      <class name="com.selenium.test.AddPrachase">
+        <test-method signature="cartParchase()[pri:0, instance:com.selenium.test.AddPrachase@7d3d101b]" started-at="2021-02-25T09:06:36Z" name="cartParchase" finished-at="2021-02-25T09:06:55Z" duration-ms="19055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartParchase -->
+      </class> <!-- com.selenium.test.AddPrachase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
