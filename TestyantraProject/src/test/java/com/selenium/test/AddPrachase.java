@@ -51,9 +51,11 @@ public class AddPrachase {
 				Actions act=new Actions(driver);
 				act.moveToElement(electronics).perform();
 				
+				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 				String mI="//a[@title='Mi']";
 			
 				driver.findElement(By.xpath(mI)).click();
+				
 				String mobile="//div[contains(text(),'Redmi 9 Prime (Space Blue, 64 GB)')]";
 				driver.findElement(By.xpath(mobile)).click();
 				
@@ -64,22 +66,31 @@ public class AddPrachase {
 					driver.switchTo().window(child);
 					
 			driver.findElement(By.xpath("//button[@class='_2KpZ6l _2U9uOA _3v1-ww']")).click();
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			String xp = "//a[text()='Redmi 9 Prime (Space Blue, 64 GB)']";
 			String actual = driver.findElement(By.xpath(xp)).getText();
-			String expected = "Redmi 9 Prime (Space Blue, 64 GB)";
 			
-			  Assert.assertEquals(actual, expected);
+			if(actual.contains("Redmi 9 Prime (Space Blue, 64 GB)"))
+			{
+				
+				System.out.println("Added to the cart");
+			}
 			
-			
+			driver.quit();
+	}
+	
 			
 		
 			
 			
 			
 			
-		}
+		
+	
+	
 
 	}
+
 	
 
 

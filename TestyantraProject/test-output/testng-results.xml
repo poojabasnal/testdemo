@@ -2,12 +2,12 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-25T03:36:36Z" name="Default suite" finished-at="2021-02-25T03:36:55Z" duration-ms="19072">
+  <suite started-at="2021-02-25T05:12:53Z" name="Default suite" finished-at="2021-02-25T05:13:13Z" duration-ms="20104">
     <groups>
     </groups>
-    <test started-at="2021-02-25T03:36:36Z" name="Default test" finished-at="2021-02-25T03:36:55Z" duration-ms="19072">
+    <test started-at="2021-02-25T05:12:53Z" name="Default test" finished-at="2021-02-25T05:13:13Z" duration-ms="20104">
       <class name="com.selenium.test.AddPrachase">
-        <test-method signature="cartParchase()[pri:0, instance:com.selenium.test.AddPrachase@7d3d101b]" started-at="2021-02-25T09:06:36Z" name="cartParchase" finished-at="2021-02-25T09:06:55Z" duration-ms="19055" status="PASS">
+        <test-method signature="cartParchase()[pri:0, instance:com.selenium.test.AddPrachase@7d3d101b]" started-at="2021-02-25T10:42:53Z" name="cartParchase" finished-at="2021-02-25T10:43:13Z" duration-ms="20083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartParchase -->
